@@ -7,7 +7,6 @@
   "baseBranches": [
     "develop"
   ],
-  "semanticCommitType": "build",
   "packageRules": [
     {
       "matchDepTypes": [
