@@ -20,10 +20,12 @@
       "semanticCommitScope": "deps"
     },
     {
+      "description": "Auto-merge development dependency updates.",
       "matchDepTypes": [
         "devDependencies"
       ],
-      "automerge": true
+      "automerge": true,
+      "semanticCommitScope": "deps-dev"
     }
   ]
 }
