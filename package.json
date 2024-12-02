@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/bintoss/renovate-config/issues"
   },
-  "homepage": "https://github.com/bintoss/renovate-config#readme"
+  "homepage": "https://github.com/bintoss/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "^37.440.7"
+  }
 }
