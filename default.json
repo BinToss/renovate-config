@@ -20,6 +20,17 @@
       "semanticCommitScope": "deps"
     },
     {
+      "description": "GitHub Actions Workflows",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchFileNames": [
+        "(^|/)(.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$"
+      ],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "deps-dev"
+    },
+    {
       "description": "Auto-merge development dependency updates.",
       "matchDepTypes": [
         "devDependencies"
