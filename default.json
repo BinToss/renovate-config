@@ -9,6 +9,17 @@
   ],
   "packageRules": [
     {
+      "description": "GitHub Actions; fix(deps): /(^|/)**/action\\.ya?ml$/ e.g. \"./action.yml\". Does not affect workflow files unless they are explicitly named \"action.yaml\" or \"action.yml\".",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchFileNames": [
+        "(^|/)action\\.ya?ml$"
+      ],
+      "semanticCommitType": "fix",
+      "semanticCommitScope": "deps"
+    },
+    {
       "matchDepTypes": [
         "devDependencies"
       ],
