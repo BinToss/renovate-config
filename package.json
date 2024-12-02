@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "A sane shareable configuration for Renovate targeting the 'develop' branch. Based on config:recommended and :preserveSemverRanges ",
+  "repository": "github:bintoss/renovate-config",
+  "keywords": [
+    "renovate",
+    "config",
+    "renovate-config"
+  ],
+  "author": "bintoss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bintoss/renovate-config/issues"
+  },
+  "homepage": "https://github.com/bintoss/renovate-config#readme"
+}
