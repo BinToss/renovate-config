@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/bintoss/renovate-config#readme",
   "devDependencies": {
-    "renovate": "^37.440.7"
+    "renovate": "^39.0.0"
   }
 }
