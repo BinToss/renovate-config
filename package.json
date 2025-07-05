@@ -21,5 +21,8 @@
   },
   "engines": {
     "pnpm": "^10.0.0"
+  },
+  "scripts": {
+    "renovate-validate-config": "npx --yes --package renovate -- renovate-config-validator"
   }
 }
