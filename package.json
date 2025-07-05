@@ -17,6 +17,6 @@
   "homepage": "https://github.com/bintoss/renovate-config#readme",
   "devDependencies": {
     "husky": "^9.1.7",
-    "renovate": "^39.0.0"
+    "renovate": "^41.21.1"
   }
 }
