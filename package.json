@@ -18,5 +18,8 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "renovate": "^41.21.1"
+  },
+  "engines": {
+    "pnpm": "^10.0.0"
   }
 }
