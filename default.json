@@ -37,6 +37,11 @@
       ],
       "automerge": true,
       "semanticCommitScope": "deps-dev"
+    },
+    {
+      "matchCategories": [
+        "dotnet"
+      ]
     }
   ]
 }
