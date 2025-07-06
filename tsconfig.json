@@ -1,0 +1,32 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "erasableSyntaxOnly": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": [
+      "ES2023"
+    ],
+    "module": "nodenext",
+    "moduleResolution": "node16",
+    "outDir": ".tsout",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2022",
+    "// rules": "rules //",
+    "exactOptionalPropertyTypes": true,
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "files": [
+    "./.commitlintrc.ts",
+    "./eslint.config.mts"
+  ]
+}
