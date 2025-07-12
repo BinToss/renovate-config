@@ -20,6 +20,7 @@ jobs:
       - name: Opening pull request
         id: pull
         uses: HXavS/sync-branches@1.5.1
+        continue-on-error: true
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           FROM_BRANCH: "main"
