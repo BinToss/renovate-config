@@ -25,4 +25,4 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           FROM_BRANCH: "main"
           TO_BRANCH: "develop"
-          PULL_REQUEST_TITLE: "chore: sync {FROM_BRANCH} to {TO_BRANCH}"
+          PULL_REQUEST_TITLE: "chore: sync main to develop"
