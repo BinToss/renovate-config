@@ -1,11 +1,12 @@
 import js from '@eslint/js'
-import globals from 'globals'
-import tseslint, { type ConfigArray } from 'typescript-eslint'
 import json from '@eslint/json'
 import markdown from '@eslint/markdown'
 import stylistic from '@stylistic/eslint-plugin'
+import { defineConfig } from 'eslint/config'
+import globals from 'globals'
+import { configs as tsConfigs, type ConfigArray } from 'typescript-eslint'
 
-const config: ConfigArray = tseslint.config([
+const config: ConfigArray = defineConfig([
   { files: ['**/*.{js,mjs,cjs,ts,mts,cts}'], plugins: { js }, extends: [js.configs.recommended] },
   {
     files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
@@ -14,8 +15,8 @@ const config: ConfigArray = tseslint.config([
       parserOptions: { projectService: true, ecmaVersion: 2023, jsDocParsingMode: 'all' },
     },
     extends: [
-      tseslint.configs.strictTypeChecked,
-      tseslint.configs.stylisticTypeChecked,
+      tsConfigs.strictTypeChecked,
+      tsConfigs.stylisticTypeChecked,
       stylistic.configs.recommended,
     ],
   },
