@@ -41,6 +41,8 @@
     "pnpm": ">=10.0.0"
   },
   "scripts": {
+    "lint": "eslint --cache",
+    "lint:fix": "eslint --cache --fix",
     "renovate-validate-config": "npx --yes --package renovate -- renovate-config-validator",
     "prepare": "husky",
     "test": "echo No tests implemented!"
