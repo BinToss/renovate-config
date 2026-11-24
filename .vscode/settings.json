@@ -1,4 +1,5 @@
 {
   "sarif-viewer.connectToGithubCodeScanning": "off",
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "MS-CST-E.vscode-devskim.ignores.ignoreFiles": [ "pnpm-lock.yaml" ]
 }
